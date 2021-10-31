@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg_blue {
+    background-color: #005BB9;
+}
+
+.bg_dark-blue {
+    background-color: #0F2438;
+}
+
+.font_white {
+    color: #FFF;
+}
+
+.font_blue {
+    color: #005BB9;
+}
+
+.font_dark-blue {
+    color: #0F2438;
+}
+
+.navbar__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.navbar__left {
+    display: flex;
+}
+
+.your__location {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.information,
+.cooperation {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.information {
+    margin-right: 30px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shop__logo {
+    display: flex;
+    align-items: center;
+}
+
+.shop__logo h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.shop__logo h2 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.working__hours {
+    display: flex;
+    column-gap: 10px;
+}
+
+.work__time {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.work__time p:last-child {
+    align-self: flex-end;
+}
+
+.our__location {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.our__location p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.whats-app {
+    background: #E1EFD0;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    padding: 8px 15px;
+}
+
+.whats-app p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.our__number {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone__number {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.our__number p:nth-child(2) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    align-self: flex-end;
+}
+
+.header__bottom {
+    display: flex;
+    margin-top: 25px;
+}
+
+.catalogue__button {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 32px;
+    border-radius: 6px;
+}
+
+.catalogue__button p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
