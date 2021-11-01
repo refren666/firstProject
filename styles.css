@@ -711,8 +711,41 @@ body {
     display: flex;
 }
 
+.footer__main__body {
+    display: flex;
+}
+
 .footer__main__body h3 {
+    margin-bottom: 14px;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+}
+
+.footer__list__item {
+    row-gap: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer__cards p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer__right {
+    margin-left: 132px;
+}
+
+.footer__contact__info {
+    display: flex;
+}
+
+.footer__contacts p,
+.footer__address p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
