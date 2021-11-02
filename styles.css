@@ -125,6 +125,10 @@ body {
     text-decoration: none;
 }
 
+.nav__more {
+    display: none;
+}
+
 .header__top {
     display: flex;
     align-items: center;
@@ -449,7 +453,6 @@ body {
 
 .slick__slider__body {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 -15px;
     position: relative;
 }
@@ -470,7 +473,7 @@ body {
 
 .slick__slider__block {
     display: flex;
-    width: 33.33%;
+    flex: 0 1 33.333%;
     padding: 0 15px;
 }
 
