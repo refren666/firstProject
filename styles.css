@@ -774,7 +774,7 @@ body {
 }
 
 .footer__row {
-    padding-top: 36px;
+    padding: 36px 0;
 }
 
 .footer__left {
@@ -879,6 +879,5 @@ body {
 .footer__trademark {
     font-size: 16px;
     line-height: 20px;
-    margin-top: 47px;
-    padding-bottom: 18px;
+    padding: 18px 0;
 }

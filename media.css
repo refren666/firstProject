@@ -219,4 +219,9 @@
     .footer__social__media {
         justify-content: flex-start;
     }
+
+    .footer__trademark {
+        background: #0E1E2F;
+        border-top: 1px solid #0C1A2A;
+    }
 }
