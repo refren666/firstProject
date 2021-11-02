@@ -314,21 +314,30 @@ body {
 
 .big__slider {
     background: url("images/clutch_bg.png") no-repeat center/cover;
-}
-
-.big__slider {
     display: flex;
+    justify-content: center;
     border-radius: 20px;
+    position: relative;
+    width: 70%;
 }
 
 .big__slider__left-arrow,
 .big__slider__right-arrow {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+
+.big__slider__left-arrow {
+    left: 0;
+}
+
+.big__slider__right-arrow {
+    right: 0;
 }
 
 .big__slider__description {
     display: flex;
+    padding-left: 30px;
 }
 
 .big__slider__text {
@@ -350,6 +359,15 @@ body {
     color: #717171;
 }
 
+.big__slider__photo {
+    display: flex;
+    align-items: center;
+}
+
+.big__slider__photo img {
+    max-width: 100%;
+}
+
 .big__slider__price {
     font-weight: 500;
     font-size: 37px;
@@ -357,6 +375,7 @@ body {
     color: #005BB9;
     padding-top: 25px;
     padding-bottom: 15px;
+    white-space: nowrap;
 }
 
 .big__slider__price span {
@@ -385,6 +404,9 @@ body {
     justify-content: center;
     column-gap: 20px;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
 }
 
 .discount__items {
@@ -414,10 +436,18 @@ body {
     color: #525252;
 }
 
+.discount__item__right {
+    padding-left: 10px;
+}
+
 .discount__item__info {
     padding-top: 18px;
     display: flex;
     column-gap: 15px;
+}
+
+.discount__item__photo img p {
+    max-width: 100%;
 }
 
 .discount__item__price {
@@ -481,8 +511,13 @@ body {
 
 .slick__slider__block {
     display: flex;
-    flex: 0 1 33.333%;
     padding: 0 15px;
+    flex: 1 1 auto;
+}
+
+.slick__slider__photo {
+    display: flex;
+    align-items: center;
 }
 
 .slick__slider__content {
@@ -496,9 +531,10 @@ body {
 .slick__slider__description {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
     align-items: flex-start;
     justify-content: center;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 .slick__slider__description h3 {
@@ -508,10 +544,10 @@ body {
 }
 
 .slick__slider__description p {
-    padding: 10px 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+    white-space: nowrap;
 }
 
 .slick__slider__button {
@@ -552,11 +588,16 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    overflow: hidden;
 }
 
 .content__first__row,
 .content__second__row {
     display: flex;
+}
+
+.content__third__row {
+    display: none;
 }
 
 .content__first__row {
@@ -798,15 +839,13 @@ body {
 }
 
 .feedback__form {
+    display: flex;
+    justify-content: space-between;
     margin: 23px 0;
 }
 
 .feedback__form p:nth-child(1) {
     padding-right: 15px;
-}
-
-.mailing {
-    margin-bottom: 20px;
 }
 
 .footer__mail__form .form-control {
@@ -826,6 +865,9 @@ body {
     line-height: 21px;
 }
 
+.mailing p {
+    padding-bottom: 18px;
+}
 
 .footer__social__media {
     margin-top: 25px;
