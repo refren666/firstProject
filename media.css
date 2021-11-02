@@ -204,6 +204,7 @@
     .footer__feedback {
         display: flex;
         column-gap: 60px;
+        margin-top: 12px;
     }
 
     .mailing {
@@ -215,4 +216,7 @@
         padding-bottom: 10px;
     }
 
+    .footer__social__media {
+        justify-content: flex-start;
+    }
 }

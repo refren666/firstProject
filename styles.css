@@ -870,6 +870,8 @@ body {
 }
 
 .footer__social__media {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 25px;
     column-gap: 55px;
 }
