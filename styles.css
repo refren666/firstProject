@@ -553,6 +553,24 @@ body {
     padding-bottom: 40px;
 }
 
+.content__first__row .main__content__block:nth-child(2) .content__block__image,
+.content__second__row .main__content__block:nth-child(2) .content__block__image {
+    position: relative;
+}
+
+.content__first__row .main__content__block:nth-child(2) .content__block__image::before,
+.content__second__row .main__content__block:nth-child(2) .content__block__image::before {
+    content: '-40%';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 39px;
+    height: 20px;
+    background: #FFB800;
+    color: white;
+    position: absolute;
+}
+
 .main__content__block {
     margin-top: 20px;
     flex: 1 1 auto;
@@ -709,6 +727,8 @@ body {
 
 .footer__left {
     display: flex;
+    justify-content: space-between;
+    width: 55%;
 }
 
 .footer__main__body {
@@ -722,11 +742,20 @@ body {
     line-height: 21px;
 }
 
+.footer__categories,
+.footer__rubricator {
+    padding-right: 15px;
+}
+
 .footer__list__item {
     row-gap: 14px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+}
+
+.footer__cards {
+    padding-top: 45px;
 }
 
 .footer__cards p {
@@ -736,11 +765,18 @@ body {
 }
 
 .footer__right {
-    margin-left: 132px;
+    margin-left: 80px;
+    flex: 1 1 auto;
 }
 
 .footer__contact__info {
     display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__contacts {
+    padding-right: 15px;
 }
 
 .footer__contacts p,
@@ -748,4 +784,46 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+}
+
+.feedback__form {
+    margin: 23px 0;
+}
+
+.feedback__form p:nth-child(1) {
+    padding-right: 15px;
+}
+
+.mailing {
+    margin-bottom: 20px;
+}
+
+.footer__mail__form .form-control {
+    background-color: #0F2438;
+    color: #fff;
+    border: 1px solid #203246;
+}
+
+.footer__mail__form .btn {
+    padding: 10px 38px;
+}
+
+.feedback__form,
+.mailing {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.footer__social__media {
+    margin-top: 25px;
+    column-gap: 55px;
+}
+
+.footer__trademark {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 47px;
+    padding-bottom: 18px;
 }
