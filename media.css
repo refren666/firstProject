@@ -12,4 +12,54 @@
     .catalogue__button p {
         display: none;
     }
+
+    .hours__container {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__contacts {
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+
+    .catalogue__button {
+        padding: 15px 20px;
+    }
+
+    .our__number {
+        align-items: flex-end;
+    }
+
+    .work__time,
+    .our__location p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .phone__number {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .whats-app {
+        padding: 2px 5px;
+    }
+
+    .header__log-in,
+    .header__features,
+    .header__cart {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__cart p {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .search__form .btn {
+        padding: 13px 26px;
+    }
 }

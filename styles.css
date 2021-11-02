@@ -152,6 +152,14 @@ body {
     line-height: 14px;
 }
 
+.hours__container {
+    column-gap: 50px;
+}
+
+.header__contacts {
+    column-gap: 50px;
+}
+
 .working__hours {
     display: flex;
     column-gap: 10px;
