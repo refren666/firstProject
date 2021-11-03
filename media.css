@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     .nav {
         display: none;
@@ -59,6 +59,10 @@
         text-align: center;
     }
 
+    .form-control {
+        font-size: 13px;
+    }
+
     .search__form .btn {
         padding: 13px 26px;
     }
@@ -90,9 +94,37 @@
         display: none;
     }
 
+    .content__block__title {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
     .content__second__row {
         border-bottom: 1px solid #E1E5F8;
         padding-bottom: 40px;
+    }
+
+    .discount__price {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .discount__price span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .content__graph__button {
+        display: none;
+    }
+
+    .content__buy__button {
+        padding: 15px 49px;
+    }
+
+    .content__buy__button p {
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .content__third__row {
@@ -124,6 +156,7 @@
         flex-direction: column-reverse;
         font-size: 18px;
         line-height: 21px;
+        white-space: nowrap;
     }
 
     .discount__item__price span {
@@ -223,5 +256,297 @@
     .footer__trademark {
         background: #0E1E2F;
         border-top: 1px solid #0C1A2A;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .navbar__dropdown__menus {
+        display: none;
+    }
+
+    .navbar__body {
+        justify-content: flex-start;
+    }
+
+    .location__icon {
+        display: none;
+    }
+
+    .your__location {
+        margin-right: 15px;
+    }
+
+    .your__city,
+    .nav__more {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .shop__logo h1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .shop__logo h2 {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .phone__number {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .our__number a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .whats-app p {
+        font-size: 10px;
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .whats-app span {
+        display: none;
+    }
+
+    .hours__container {
+        display: none;
+    }
+
+    .header__bottom {
+        margin-top: 15px;
+    }
+
+    .catalogue__button {
+        padding: 10px 7px;
+    }
+
+    .header__actions {
+        display: none;
+    }
+
+    .search__form {
+        margin-left: 20px;
+    }
+
+    .main__slider__body {
+        flex-direction: column;
+    }
+
+    .big__slider {
+        width: 100%;
+    }
+
+    .big__slider__description {
+        padding: 25px 16px;
+    }
+
+    .big__slider__text h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .big__slider__text a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .big__slider__price span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .big__slider__price {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .big__slider__button {
+        padding: 10px 24px;
+    }
+
+    .big__slider__button p {
+        font-size: 12px;
+        line-height: 14px;
+        white-space: nowrap;
+    }
+
+    .discount__items {
+        flex-direction: row;
+        margin-top: 10px;
+        column-gap: 10px;
+        overflow: hidden;
+    }
+
+    .discount__item__title {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .discount__item__description p:nth-child(1) {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .discount__item__price p {
+        font-size: 14px;
+        line-height: 16px;
+        flex-direction: row;
+        column-gap: 3px;
+    }
+
+    .discount__item__price span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .discount__item__button {
+        padding: 10px;
+    }
+
+    .discount__item__price {
+        column-gap: 27px;
+    }
+
+    .slick__slider {
+        margin-top: 20px;
+    }
+
+    .slick__slider__description h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .slick__slider__description p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .slick__slider__button p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main__content__filters p {
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 20px;
+    }
+
+    .main__content__filters {
+        overflow: hidden;
+    }
+
+    .filter__item__selection {
+        display: flex;
+        align-items: center;
+    }
+
+    .content__buy__button {
+        padding: 11px 17px;
+    }
+
+    .main__content__more p {
+        padding: 10px 40px;
+    }
+
+    .main__content {
+        margin-top: 30px;
+    }
+
+    .news__title {
+        margin-top: 50px;
+    }
+
+    .news__timeline {
+        display: none;
+    }
+
+    .news__row {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+    .news__block {
+        width: 100%;
+    }
+
+    .news__block:nth-child(4) {
+        display: flex;
+    }
+
+    .news__date {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 4px 8px;
+    }
+
+    .news__block h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .news__description {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+
+    .footer__left {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer__contact__info {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer__feedback {
+        flex-direction: column;
+    }
+
+    .footer__social__media {
+        column-gap: 45px;
+    }
+
+    .footer__main__body h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__list__item,
+    .footer__cards p,
+    .footer__contacts p,
+    .footer__address p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .feedback__form,
+    .mailing {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .input-group {
+        width: 85%;
+    }
+
+    .footer__mail__form .btn {
+        padding: 10px 15px;
+    }
+
+    .footer__trademark {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 15px 0;
     }
 }

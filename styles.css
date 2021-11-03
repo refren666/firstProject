@@ -100,6 +100,10 @@ body {
     margin-right: 50px;
 }
 
+.navbar__dropdown__menus {
+    display: flex;
+}
+
 .information,
 .cooperation {
     display: flex;
@@ -135,9 +139,13 @@ body {
     justify-content: space-between;
 }
 
-.shop__logo {
+.shop__logo__body {
     display: flex;
     align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
 }
 
 .shop__logo h1 {
@@ -153,6 +161,7 @@ body {
 }
 
 .hours__container {
+    display: flex;
     column-gap: 50px;
 }
 
@@ -226,6 +235,11 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+}
+
+.catalogue__hamburger__icon {
+    display: flex;
+    align-items: center;
 }
 
 .catalogue__button {
@@ -406,7 +420,8 @@ body {
     padding: 10px 0;
     position: absolute;
     bottom: 0;
-    left: 45%;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 .discount__items {
@@ -502,11 +517,11 @@ body {
 }
 
 .slick__slider__arrow-left {
-    left: -25px;
+    left: -24px;
 }
 
 .slick__slider__arrow-right {
-    right: -25px;
+    right: -24px;
 }
 
 .slick__slider__block {
@@ -605,13 +620,21 @@ body {
     padding-bottom: 40px;
 }
 
+.content__first__row .main__content__block:nth-child(2) .content__block__reviews,
+.content__second__row .main__content__block:nth-child(2) .content__block__reviews,
+.content__third__row .main__content__block:nth-child(2) .content__block__reviews {
+    margin-top: 23px;
+}
+
 .content__first__row .main__content__block:nth-child(2) .content__block__image,
-.content__second__row .main__content__block:nth-child(2) .content__block__image {
+.content__second__row .main__content__block:nth-child(2) .content__block__image,
+.content__third__row .main__content__block:nth-child(2) .content__block__image {
     position: relative;
 }
 
 .content__first__row .main__content__block:nth-child(2) .content__block__image::before,
-.content__second__row .main__content__block:nth-child(2) .content__block__image::before {
+.content__second__row .main__content__block:nth-child(2) .content__block__image::before,
+.content__third__row .main__content__block:nth-child(2) .content__block__image::before {
     content: '-40%';
     display: flex;
     align-items: center;
@@ -747,7 +770,7 @@ body {
 }
 
 .news__section {
-    margin-top: 60px;
+    margin-top: 17px;
 }
 
 .news__row {
@@ -755,11 +778,23 @@ body {
 }
 
 .news__block {
-    flex-basis: 25%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.news__block p {
-    padding-top: 20px;
+.news__date {
+    padding: 4px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.news__block h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .news__description {
