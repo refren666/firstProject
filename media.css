@@ -550,6 +550,13 @@
         padding: 15px 0;
     }
 
+    .bottom__menu__wrapper {
+        width: 100%;
+        height: 64px;
+        position: relative;
+        bottom: 0;
+    }
+
     .mobile__bottom__menu {
         display: flex;
         justify-content: space-evenly;
