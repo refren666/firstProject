@@ -321,7 +321,7 @@
     }
 
     .catalogue__button {
-        padding: 10px 7px;
+        padding: 12px;
     }
 
     .header__actions {
@@ -601,5 +601,23 @@
     .mobile__cart__notification::before {
         content: '2';
         right: 0;
+    }
+
+    .search__form {
+        display: none;
+    }
+
+    .search__form__mobile {
+        display: block;
+    }
+
+    .search__form__mobile .btn {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .big__slider__description {
+        padding: 45px 16px;
     }
 }

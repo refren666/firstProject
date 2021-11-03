@@ -256,7 +256,8 @@ body {
     line-height: 21px;
 }
 
-.search__form {
+.search__form,
+.search__form__mobile {
     flex: 1 1 auto;
     margin-left: 30px;
 }
@@ -920,4 +921,9 @@ body {
 .mobile__bottom__menu {
     position: fixed;
     bottom: 0;
+    display: none;
+}
+
+.search__form__mobile {
+    display: none;
 }
