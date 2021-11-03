@@ -916,3 +916,8 @@ body {
     line-height: 20px;
     padding: 18px 0;
 }
+
+.mobile__bottom__menu {
+    position: fixed;
+    bottom: 0;
+}
